@@ -10,6 +10,7 @@ function DoubleController(DoubleFactory){
 
   self.api.getList().success(function(data){
     console.log(data);
+    self.all = data;
   });
 
 
